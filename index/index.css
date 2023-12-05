@@ -1,6 +1,5 @@
 body{
-    background-color: #E5FDA4 
-    ;
+    background-color: #E5FDA4;
 }
 h2{
     color: #527530;
@@ -9,7 +8,7 @@ h2{
     font-size: 40px;
     text-align: center;
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 header{
     color: #8DB762;
@@ -20,3 +19,44 @@ header{
     margin-left: 30px;
     margin-top: 50px;
 }
+.Uicon{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapimg{
+    z-index: 1;
+}
+.mapcontainer{
+    margin: 30px;
+    width: auto;
+    height: 900px;
+    background-image: url(IMG/Map.png);
+    width: 1000px;
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(24,1fr);
+    z-index: 2;
+}
+.star1{
+    width: 80%;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    z-index: 2;
+}
+.star2{
+    width: 80%;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    z-index: 2;
+}
+
