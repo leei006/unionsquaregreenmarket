@@ -1,0 +1,52 @@
+body{
+    background-color: #B1EA4C ;
+}
+.Uicon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color: rgb(49, 128, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: solid green;
+    border-width: 10px;
+}
+.days{
+    width: 400px;
+    background-color:  rgb(49, 128, 0);
+    padding: 5px;
+    color: rgb(247, 245, 239);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 20px;
+    align-items: center;
+    place-items: center;
+    place-content: center;
+}
+h3{
+    color: rgb(49, 128, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}

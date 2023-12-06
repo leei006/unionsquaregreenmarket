@@ -1,6 +1,15 @@
 body{
     background-color: #E5FDA4;
 }
+.home{
+    color: #f7cc08;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 100px;
+}
 h2{
     color: #527530;
     font-family: 'Raleway', sans-serif;
@@ -15,46 +24,70 @@ header{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 30px;
-    text-align: left;
-    margin-left: 30px;
+    text-align: center;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 .Uicon{
     width: 10%;
+}
+.star{
+    width: 4%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-.mapimg{
-    z-index: 1;
-}
 .mapcontainer{
-    margin: 30px;
-    width: auto;
-    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     background-image: url(IMG/Map.png);
-    width: 1000px;
-    height: 1000px;
     background-size: contain;
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(24,1fr);
-    z-index: 2;
 }
 .star1{
-    width: 80%;
+    width: 100%;
     grid-column-start: 12;
     grid-column-end: 13;
     grid-row-start: 10;
     grid-row-end: 11;
 }
 .star2{
-    width: 80%;
+    width: 100%;
     grid-column-start: 12;
     grid-column-end: 13;
     grid-row-start: 6;
     grid-row-end: 7;
+}
+.star3{
+    width: 100%;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.star4{
+    width: 100%;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 13;
+    grid-row-end: 14;
+}
+.star5{
+    width: 100%;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.star6{
+    width: 100%;
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 11;
+    grid-row-end: 12;
 }
 
